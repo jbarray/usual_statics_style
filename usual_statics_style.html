@@ -2,24 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>项目九</title>
-    <link href="new_1_task9.css" rel="stylesheet" type="text/css"/>
+    <title>usual_statics_style</title>
+    <link href="usual_statics_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div class="header">
-    <div class="logo"><img id="header-img" src="./img/new_img/logo.png" alt="图片无法加载"/></div>
+    <div class="logo"><img id="header-img" src="./img/logo.png" alt="图片无法加载"/></div>
     <div class="find">
-        <input type="text"/>
-        <span><img src="./img/new_img/icon_search.png" alt="图片无法加载"/></span>
+        <label>
+            <input/>
+        </label>
+        <span><img src="./icon/icon_search.png" alt="图片无法加载"/></span>
     </div>
     <div class="login">
-        <span><img src="./img/new_img/icon_login.png" alt="图片无法加载"/></span><a id="login-massage" href="#">登录</a>
+        <span><img src="./icon/icon_login.png" alt="图片无法加载"/></span><a id="login-massage" href="#">登录</a>
     </div>
 </div>
 <div class="content">
     <div class="aside">
         <div class="user-info">
-            <img class="user-photo" src="./img/new_img/user_head.png"/><span>ABC123</span>
+            <img class="user-photo" src="./img/user_head.png"/><span>ABC123</span>
         </div>
         <div class="user-more">
             <div class="save"><p>110</p><p>收藏</p></div>
@@ -29,24 +31,24 @@
         <ul class="list">
             <li class="report">
                 <div class="report-title">
-                    <img class="list-img" src="./img/new_img/icon_report.png" alt="图片无法加载"/>个人报表
+                    <img class="list-img" src="./icon/icon_report.png" alt="图片无法加载"/>个人报表
                 </div>
                 <ul class="report-main">
-                    <li><img class="main-img1" src="./img/new_img/icon_arrow_n.png" alt="图片无法加载"/><img class="main-img2" src="./img/new_img/icon_file_n.png" alt="图片无法加载"/>文件一</li>
-                    <li class="spe"><img class="main-img1 " src="./img/new_img/icon_arrow_s.png" alt="图片无法加载"/><img class="main-img2" src="./img/new_img/icon_file_n.png" alt="图片无法加载"/>文件二
+                    <li><img class="main-img1" src="./icon/icon_arrow_n.png" alt="图片无法加载"/><img class="main-img2" src="./icon/icon_file_n.png" alt="图片无法加载"/>文件一</li>
+                    <li class="spe"><img class="main-img1 " src="./icon/icon_arrow_s.png" alt="图片无法加载"/><img class="main-img2" src="./icon/icon_file_n.png" alt="图片无法加载"/>文件二
                         <ul class="main-doc">
-                            <li class="doc-1"><img class="main-img2" src="./img/new_img/icon_doc_n.png" alt="图片无法加载"/>文档一</li>
-                            <li class="spe"><img class="main-img2 " src="./img/new_img/icon_doc_n.png" alt="图片无法加载"/>文档二</li>
+                            <li class="doc-1"><img class="main-img2" src="./icon/icon_doc_n.png" alt="图片无法加载"/>文档一</li>
+                            <li class="spe"><img class="main-img2 " src="./icon/icon_doc_n.png" alt="图片无法加载"/>文档二</li>
                         </ul>
                     </li>
-                    <li><img class="main-img1" src="./img/new_img/icon_arrow_n.png" alt="图片无法加载"/><img class="main-img2" src="./img/new_img/icon_file_n.png" alt="图片无法加载"/>文件三</li>
+                    <li><img class="main-img1" src="./icon/icon_arrow_n.png" alt="图片无法加载"/><img class="main-img2" src="./icon/icon_file_n.png" alt="图片无法加载"/>文件三</li>
                 </ul>
             </li>
-            <li><img class="list-1" src="./img/new_img/icon_star.png" alt="图片无法加载"/>个人收藏</li>
-            <li><img class="list-1" src="./img/new_img/icon_share.png" alt="图片无法加载"/>我的分享</li>
-            <li><img class="list-1" src="./img/new_img/icon_star.png" alt="图片无法加载"/>图库</li>
-            <li><img class="list-1" src="./img/new_img/icon_star.png" alt="图片无法加载"/>成长记录</li>
-            <li><img class="list-1" src="./img/new_img/icon_account.png" alt="图片无法加载"/>账户信息</li>
+            <li><img class="list-1" src="./icon/icon_star.png" alt="图片无法加载"/>个人收藏</li>
+            <li><img class="list-1" src="./icon/icon_share.png" alt="图片无法加载"/>我的分享</li>
+            <li><img class="list-1" src="./icon/icon_star.png" alt="图片无法加载"/>图库</li>
+            <li><img class="list-1" src="./icon/icon_star.png" alt="图片无法加载"/>成长记录</li>
+            <li><img class="list-1" src="./icon/icon_account.png" alt="图片无法加载"/>账户信息</li>
         </ul>
     </div>
     <div class="article">
@@ -54,45 +56,59 @@
         <div class="search">
             <div class="search-1">
                 <label>查询项</label>
-                <select value="第一项">
-                    <option>第一项</option>
-                    <option>第二项</option>
-                    <option>第三项</option>
-                </select>
+                <label>
+                    <select value="第一项">
+                        <option>第一项</option>
+                        <option>第二项</option>
+                        <option>第三项</option>
+                    </select>
+                </label>
             </div>
             <div class="search-2">
                 <label>买方</label>
-                <select value="小A">
-                    <option>小A</option>
-                    <option>小B</option>
-                </select><br/>
+                <label>
+                    <select>
+                        <option>小A</option>
+                        <option>小B</option>
+                    </select>
+                </label><br/>
                 <label>卖方</label>
-                <select value="小C">
-                    <option>小C</option>
-                    <option>小D</option>
-                </select>
+                <label>
+                    <select value="小C">
+                        <option>小C</option>
+                        <option>小D</option>
+                    </select>
+                </label>
             </div>
-            <span><img src="./img/new_img/change.jpg"/></span>
+            <span><img src="./img/change.jpg"/></span>
             <div id="search3">
                 <label>日期</label>
-                <input type="date"/><br/>
+                <label>
+                    <input type="date"/>
+                </label><br/>
                 <label>人数</label>
-                <select value="10人">
-                    <option>10人</option>
-                    <option>9人</option>
-                </select>
+                <label>
+                    <select value="10人">
+                        <option>10人</option>
+                        <option>9人</option>
+                    </select>
+                </label>
             </div>
             <div id="search4">
                 <label>总耗时</label>
-                <select value="8天">
-                    <option>8天</option>
-                    <option>7天</option>
-                </select><br/>
+                <label>
+                    <select value="8天">
+                        <option>8天</option>
+                        <option>7天</option>
+                    </select>
+                </label><br/>
                 <label>成交项</label>
-                <select value="10项">
-                    <option>10项</option>
-                    <option>9项</option>
-                </select>
+                <label>
+                    <select value="10项">
+                        <option>10项</option>
+                        <option>9项</option>
+                    </select>
+                </label>
             </div>
             <div id="search5">
                 <input id="search-result" type="button" value="搜索"/>
@@ -100,15 +116,15 @@
         </div>
         <div class="time-line">
             <ul>
-                <li class="to-next"><img class="time-line-img" src="./img/new_img/icon_a_l.png"/></li>
+                <li class="to-next"><img class="time-line-img" src="./icon/icon_a_l.png"/></li>
                 <li class="time_1 time_spe">10:00am <br/><div class="money"><span>￥</span>1200</div></li>
                 <li class="time_1">10:00am <br/><div class="money"><span>￥</span>1200</div></li>
                 <li class="time_1">10:00am <br/><div class="money"><span>￥</span>1200</div></li>
                 <li class="time_1">10:00am <br/><div class="money"><span>￥</span>1200</div></li>
                 <li class="time_1">10:00am <br/><div class="money"><span>￥</span>1200</div></li>
                 <li class="time_1">10:00am <br/><div class="money"><span>￥</span>1200</div></li>
-                <li class="to-next"><img class="time-line-img" src="./img/new_img/icon_a_r.png"/></li>
-                <li class="history-query"><img src="./img/new_img/icon_history.png"/>历史查询</li>
+                <li class="to-next"><img class="time-line-img" src="./icon/icon_a_r.png"/></li>
+                <li class="history-query"><img src="./icon/icon_history.png"/>历史查询</li>
             </ul>
         </div>
         <div class="data-month">
@@ -189,29 +205,29 @@
                     <hr class="line line_x_3">
                     <div class="plan">
                         <label>
-                            <input class="ensure" type="checkbox"/>
+                            <input id="ensure" type="checkbox"/>
                         </label><label for="ensure">遵守保密协议</label>
                         <input class="submit" type="submit" value="搜索"/>
                     </div>
                 </div>
             </div>
-            <div class="calender_charts">
+            <div class="calender-charts">
                 <div class="calender">
                     <div class="item-title">日历</div>
-                    <div class="select_box">
-                        <select name="" >
-                            <option value="">2016年</option>
-                        </select>
-                        <a href="javascript:;"></a>
-                        <select name="" >
+                    <div class="select-box">
+                            <select name="">
+                                <option value="">2016年</option>
+                            </select>
+                        <a href="javascript:"></a>
+                            <select name="">
 
-                            <option value="">4月</option>
+                                <option value="">4月</option>
 
-                        </select>
-                        <a href="javascript:;"></a>
-                        <select name="" >
-                            <option value="">标注日期</option>
-                        </select>
+                            </select>
+                        <a href="javascript:"></a>
+                            <select name="">
+                                <option value="">标注日期</option>
+                            </select>
                         <button>返回今天</button>
                     </div>
                     <ul class="week">
@@ -223,7 +239,7 @@
                         <li>六</li>
                         <li>日</li>
                     </ul>
-                    <table class="calender-table" border="0" cellspacing="2">
+                    <table  border="0" cellspacing="2">
                         <tbody>
                         <tr>
                             <td>
@@ -280,7 +296,7 @@
                                 <p class="num">8</p>
                                 <p class="big">初二</p>
                             </td>
-                            <td class="selected">
+                            <td id="special-day1">
                                 <p class="num">9</p>
                                 <p class="big">初三</p>
                             </td>
@@ -294,7 +310,7 @@
                                 <p class="num">11</p>
                                 <p class="big">初五</p>
                             </td>
-                            <td class="selected">
+                            <td id="special-day2">
                                 <p class="num">12</p>
                                 <p class="big">初六</p>
                             </td>
@@ -324,7 +340,7 @@
                                 <p class="num">18</p>
                                 <p class="big">十二</p>
                             </td>
-                            <td class="selected">
+                            <td id="special-day3">
                                 <p class="num">19</p>
                                 <p class="big">十三</p>
                             </td>
